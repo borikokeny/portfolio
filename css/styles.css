@@ -23,13 +23,12 @@ nav li a {
 }
 
 .active {
-    text-decoration: bold;
     font-weight: bold;
 }
 
-/* .fa-brands {
+.social-media i {
     font-size: 2em;
-} */
+}
 
 /* .about {
     display: flex;
