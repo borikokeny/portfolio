@@ -30,6 +30,19 @@ nav li a {
     font-size: 2em;
 }
 
+.screenshots h1 {
+    font-size: 3öpx;
+}
+
+.screenshots h2 {
+    font-size: 15px;
+}
+
+.screenshots h3 {
+    font-size: 10px;
+}
+
+
 /* .about {
     display: flex;
     flex-direction: row;
