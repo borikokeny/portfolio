@@ -1,0 +1,68 @@
+@font-face {
+    font-family: "Segoe UI", sans-serif ;
+    src: url("http://fonts.cdnfonts.com/css/segoe-ui-4");
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+
+nav li a {
+    color: rgb(97, 97, 97);
+    text-decoration: none;
+    font-size: 30px;
+    padding-right: 50px;
+    padding-top: 200px;
+}
+
+.active {
+    text-decoration: bold;
+    font-weight: bold;
+}
+
+/* .fa-brands {
+    font-size: 2em;
+} */
+
+/* .about {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    flex-wrap: wrap;
+} */
+
+.about-image {
+    /* width: 300px; */
+    background-image: url("../images/me.jpg");
+    /* margin: 50px; */
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* min-height: 200px; */
+    margin: 50px;
+    min-height: 476px;
+    /* float: left; */
+}
+
+.about-image:hover {
+    background-image: url("../images/me-color.jpg");
+}
+
+.about-text {
+    float: right;
+    margin-top: -475px;
+}
+
+.about-text h1 {
+    font-size: 40px;   
+}
+
+.about-text h2 {
+    font-size: 30px;
+}
