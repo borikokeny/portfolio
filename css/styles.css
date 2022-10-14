@@ -6,6 +6,7 @@
 :root {
     --black-color: rgb(0, 0, 0);
     --gray-color: rgb(56, 56, 56);
+    --light-color: rgb(211, 211, 211);
     /* --darkgray-color : rgb(39, 39, 39); */
     /* --white-color: rgb(255, 255, 255);
     --menta-color: rgb(46, 212, 156);
@@ -86,37 +87,66 @@ nav li a {
     margin-top: 50px;
 }
 
-.screenshots h1, h2, h3 {
+.screenshots h1, h2, h3, i {
     color: var(--black-color);
 }
 
-.screenshots h1 {
+/* .screenshots h1 {
     font-size: 30px;
+
+} */
+
+.screenshots h1 {
+    font-size: 15px;
+    margin-bottom: -10px;
+    background-color: var(--light-color);
+    padding-left: 3px;
 }
 
 .screenshots h2 {
-    font-size: 15px;
-}
-
-.screenshots h3 {
     font-size: 14px;
+    background-color: var(--light-color);
+    margin-top: 9px;
+    padding-top: 3px;
+    padding-left: 3px;
 }
 
-/* .about {
+.screenshots i {
+    font-size: 20px;
+}
+
+.third-screenshot {
+    margin-top: 20px;
+}
+
+.click {
+    background-color: var(--light-color);
+    margin-top: -13px;
+    padding-top: 7px;
+    padding-left: 3px;
+}
+
+/* .site-info {
     display: flex;
-    flex-direction: row;
-    margin-top: 50px;
-    flex-wrap: wrap;
 } */
 
+.about {
+    display: flex;
+    flex-direction: row;
+    /* margin-top: 50px; */
+    flex-wrap: wrap;
+}
+
 .about-image {
-    /* width: 300px; */
+    width: 300px;
     background-image: url("../images/me.jpg");
     /* margin: 50px; */
     background-size: contain;
     background-repeat: no-repeat;
     /* min-height: 200px; */
-    margin: 50px;
+    /* margin: 130px; */
+    margin: 100px 100px 0 200px;
+    padding: 50px;
     min-height: 476px;
     /* float: left; */
 }
@@ -127,7 +157,7 @@ nav li a {
 
 .about-text {
     float: right;
-    margin-top: -475px;
+    margin-top: 70px;
 }
 
 .about-text h1 {
@@ -136,4 +166,16 @@ nav li a {
 
 .about-text h2 {
     font-size: 30px;
+}
+
+.contact a {
+    color: var(--black-color);
+}
+
+.contact h3 {
+    font-size: 25px;
+}
+
+.social-media i {
+    font-size: 20px;
 }

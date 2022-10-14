@@ -1,5 +1,11 @@
-@media (min-width: 800px) {
+@media (min-width: 1026px) {
     .rainy-img {
         width: 583px;
+    }
+}
+
+@media (max-width: 1025px) {
+    .screenshot {
+        margin-top: 30px;
     }
 }
