@@ -4,8 +4,9 @@
 }
 
 :root {
-    /* --black-color: rgb(0, 0, 0); */
-    --grey-color: rgb(97, 97, 97);
+    --black-color: rgb(0, 0, 0);
+    --gray-color: rgb(56, 56, 56);
+    /* --darkgray-color : rgb(39, 39, 39); */
     /* --white-color: rgb(255, 255, 255);
     --menta-color: rgb(46, 212, 156);
     --green-color: 	rgb(15, 36, 29); */
@@ -23,7 +24,7 @@ nav ul{
 }
 
 nav li a {
-    color: grey;
+    color: var(--gray-color);
     text-decoration: none;
     font-size: 30px;
     padding-right: 50px;
@@ -32,6 +33,7 @@ nav li a {
 
 .active {
     font-weight: bold;
+    text-decoration: underline;
 }
 
 .social-media i {
@@ -69,9 +71,23 @@ nav li a {
 }
 
 .about-button a {
-    color: grey;
+    color: var(--gray-color);
     text-decoration: none;
     text-align: center;
+}
+
+.screenshots {
+    /* margin-left: 50px; */
+    display: flex;
+    grid-gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.screenshots h1, h2, h3 {
+    color: var(--black-color);
 }
 
 .screenshots h1 {
@@ -83,9 +99,8 @@ nav li a {
 }
 
 .screenshots h3 {
-    font-size: 10px;
+    font-size: 14px;
 }
-
 
 /* .about {
     display: flex;
