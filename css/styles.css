@@ -3,6 +3,14 @@
     src: url("http://fonts.cdnfonts.com/css/segoe-ui-4");
 }
 
+:root {
+    /* --black-color: rgb(0, 0, 0); */
+    --grey-color: rgb(97, 97, 97);
+    /* --white-color: rgb(255, 255, 255);
+    --menta-color: rgb(46, 212, 156);
+    --green-color: 	rgb(15, 36, 29); */
+}
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -15,7 +23,7 @@ nav ul{
 }
 
 nav li a {
-    color: rgb(97, 97, 97);
+    color: grey;
     text-decoration: none;
     font-size: 30px;
     padding-right: 50px;
@@ -33,7 +41,7 @@ nav li a {
 .project-buttons {
     display: flex;
     grid-gap: 10px;
-    margin-top: 30px;
+    margin-top: 140px;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
@@ -41,6 +49,7 @@ nav li a {
 
 .hero {
     width: 292px;
+    margin-right: 20px;
 }
 
 .hand {
@@ -54,8 +63,19 @@ nav li a {
     padding-top: 29px;
 }
 
+.about-button {
+    margin-top: 138px;
+    margin-left: 18px;
+}
+
+.about-button a {
+    color: grey;
+    text-decoration: none;
+    text-align: center;
+}
+
 .screenshots h1 {
-    font-size: 3öpx;
+    font-size: 30px;
 }
 
 .screenshots h2 {
