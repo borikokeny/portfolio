@@ -30,6 +30,30 @@ nav li a {
     font-size: 2em;
 }
 
+.project-buttons {
+    display: flex;
+    grid-gap: 10px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero {
+    width: 292px;
+}
+
+.hand {
+    width: 200px;
+    height: 24
+    0px;
+}
+
+.baby {
+    width: 298px;
+    padding-top: 29px;
+}
+
 .screenshots h1 {
     font-size: 3öpx;
 }
