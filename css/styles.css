@@ -7,10 +7,6 @@
     --black-color: rgb(0, 0, 0);
     --gray-color: rgb(56, 56, 56);
     --light-color: rgb(211, 211, 211);
-    /* --darkgray-color : rgb(39, 39, 39); */
-    /* --white-color: rgb(255, 255, 255);
-    --menta-color: rgb(46, 212, 156);
-    --green-color: 	rgb(15, 36, 29); */
 }
 
 body {
@@ -78,7 +74,6 @@ nav li a {
 }
 
 .screenshots {
-    /* margin-left: 50px; */
     display: flex;
     grid-gap: 10px;
     flex-wrap: wrap;
@@ -90,11 +85,6 @@ nav li a {
 .screenshots h1, h2, h3, i {
     color: var(--black-color);
 }
-
-/* .screenshots h1 {
-    font-size: 30px;
-
-} */
 
 .screenshots h1 {
     font-size: 15px;
@@ -115,6 +105,10 @@ nav li a {
     font-size: 20px;
 }
 
+.rainy-img {
+    margin-top: 5px;
+}
+
 .third-screenshot {
     margin-top: 20px;
 }
@@ -126,29 +120,20 @@ nav li a {
     padding-left: 3px;
 }
 
-/* .site-info {
-    display: flex;
-} */
-
 .about {
     display: flex;
     flex-direction: row;
-    /* margin-top: 50px; */
     flex-wrap: wrap;
 }
 
 .about-image {
     width: 300px;
     background-image: url("../images/me.jpg");
-    /* margin: 50px; */
     background-size: contain;
     background-repeat: no-repeat;
-    /* min-height: 200px; */
-    /* margin: 130px; */
-    margin: 100px 100px 0 100px;
+    margin: 100px 47px 0 100px;
     padding: 50px;
     min-height: 476px;
-    /* float: left; */
 }
 
 .about-image:hover {
@@ -157,7 +142,7 @@ nav li a {
 
 .about-text {
     float: right;
-    margin-top: 70px;
+    margin-top: 80px;
 }
 
 .about-text h1 {
@@ -175,6 +160,7 @@ nav li a {
 
 .contact h3 {
     font-size: 25px;
+    margin-top: 40px;
 }
 
 .contact p {
