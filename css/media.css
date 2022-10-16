@@ -63,4 +63,8 @@
         margin-top: -126px;
         margin-left: 60px;
     }
+
+    .screenshot {
+        max-width: 480px;
+    }
 }
