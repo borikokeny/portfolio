@@ -73,9 +73,13 @@
     }
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 479px) {
     nav li a {
         font-size: 20px;
+    }
+
+    .project-buttons {
+        margin-top: 40px;
     }
 
     .screenshot img {
