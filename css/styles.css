@@ -145,7 +145,7 @@ nav li a {
     background-repeat: no-repeat;
     /* min-height: 200px; */
     /* margin: 130px; */
-    margin: 100px 100px 0 200px;
+    margin: 100px 100px 0 100px;
     padding: 50px;
     min-height: 476px;
     /* float: left; */
@@ -166,6 +166,7 @@ nav li a {
 
 .about-text h2 {
     font-size: 30px;
+    margin-bottom: -5px;
 }
 
 .contact a {
@@ -174,6 +175,10 @@ nav li a {
 
 .contact h3 {
     font-size: 25px;
+}
+
+.contact p {
+    margin-top: -15px;
 }
 
 .social-media i {
